@@ -536,7 +536,7 @@ Vaishali, <br>Ghz. 201010<br>
 </div>
 </div>
 <div class="col col-lg-auto">
-<div class="mb-2 font-primary h5"><i class="h6 bi-telephone-outbound me-2"></i> <a class="text-dark h-text-color" href="tel:09315154360">+(91) 9315154360</a></div>
+<!-- <div class="mb-2 font-primary h5"><i class="h6 bi-telephone-outbound me-2"></i> <a class="text-dark h-text-color" href="tel:09315154360">+(91) 9315154360</a></div>-->
 <div class="mb-2 font-primary h5"><i class="h6 fa-brands fa-whatsapp me-2"></i> <a class="text-dark h-text-color" href="https://wa.me/919315154360">+(91) 9315154360</a></div>
 <!-- <div class="mb-2 font-primary h5"><i class="h6 bi-envelope me-2"></i> <a class="text-dark h-text-color" href="/cdn-cgi/l/email-protection#a7c9c8d5c2d7cbdee7c4c6c9d1c6d489c4c8ca"><span class="__cf_email__" data-cfemail="f990979f96b99a98978f988ad79a9694">[email&#160;protected]</span></a></div>-->
 <div class="mb-2 font-primary h5"><i class="h6 bi-envelope me-2"></i> <a class="text-dark h-text-color" href="mailto:info@montakidz.com">info@montakidz.com</a></div>
@@ -549,13 +549,14 @@ Vaishali, <br>Ghz. 201010<br>
 <p>Tell us a little bit about your family to get started. Come learn about the Scole experience!</p>
 <div class="form-widget">
 <div class="form-result"></div>
-<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+<form class="mb-0" id="template-contactform" name="template-contactform" action="https://eov022aieymwfk0.m.pipedream.net" method="post">
 <div class="form-process">
 <div class="css3-spinner">
 <div class="css3-spinner-scaler"></div>
 </div>
 </div>
 <div class="row">
+<!--
 <div class="col-md-6 form-group mb-4">
 <input type="text" id="kindergarten-contactform-first-name" name="kindergarten-contactform-first-name" value="" placeholder="First Name" class="form-control required">
 </div>
@@ -571,7 +572,7 @@ Vaishali, <br>Ghz. 201010<br>
 <input type="text" id="kindergarten-contactform-phone" name="kindergarten-contactform-phone" value="" placeholder="Phone" class="form-control">
 </div>
 <div class="col-md-6 form-group mb-4">
-<select id="kindergarten-contactform-subject" name="kindergarten-contactform-subject" class="form-select">
+<select id="kindergarten-contactform-subject" name="kindergarten-contactform-subject" class="form-select required">
 <option value="" disabled selected>Select Program</option>
 <option value="Toddler">Toddler</option>
 <option value="Pre-School">Pre-School</option>
@@ -588,8 +589,33 @@ Vaishali, <br>Ghz. 201010<br>
 <input type="text" id="kindergarten-contactform-location" name="kindergarten-contactform-location" value="" placeholder="Location" class="required form-control">
 </div>
 <div class="w-100"></div>
+-->
+
 <div class="col-12 form-group mb-4">
-<textarea class="required form-control py-2" id="kindergarten-contactform-message" placeholder="Write your Message" name="kindergarten-contactform-message" rows="5" cols="30"></textarea>
+<input type="text" id="kindergarten-contactform-first-name" name="kindergarten-contactform-name" value="" placeholder="Name" class="form-control required">
+</div>
+<div class="w-100"></div>
+<div class="col-12 form-group mb-4">
+<input type="email" id="kindergarten-contactform-email" name="kindergarten-contactform-email" value="" placeholder="Email" class="email form-control">
+</div>
+<div class="w-100"></div>
+<div class="col-12 form-group mb-4">
+<input type="text" id="kindergarten-contactform-phone" name="kindergarten-contactform-phone" value="" placeholder="Phone" class="form-control required">
+</div>
+<div class="w-100"></div>
+<div class="col-12 form-group mb-4">
+<select id="kindergarten-contactform-subject" name="kindergarten-contactform-subject" class="form-select">
+<option value="" disabled selected>Select Program</option>
+<option value="Toddler">Toddler</option>
+<option value="Pre-School">Pre-School</option>
+<option value="Kindergarten">Kindergarten</option>
+<option value="Pre-Kindergarten">Pre-Kindergarten</option>
+<option value="Others">Others</option>
+</select>
+</div>
+<div class="w-100"></div>
+<div class="col-12 form-group mb-4">
+<textarea class="required form-control py-2" id="kindergarten-contactform-message" placeholder="Write your Message/ Query" name="kindergarten-contactform-message" rows="5" cols="30"></textarea>
 </div>
 <div class="col-12 form-group d-none">
 <input type="text" id="kindergarten-contactform-botcheck" name="kindergarten-contactform-botcheck" value="" class="form-control">
